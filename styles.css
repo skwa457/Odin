@@ -1,0 +1,66 @@
+body{
+  font-family:"Roboto", arial;
+  margin:0;
+  padding:0;
+}
+
+.nav-container{
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 13em;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.nav-tabs{
+  display: flex;
+  gap: 1.5em;
+}
+
+.nav-tabs a{
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.main-section{
+  display: flex;
+  gap: 1.5em;
+  margin: 1.5em;
+}
+
+.left-header{
+  font-size: 48px;
+  font-weight: extra bold;
+  color: #F9FAF8;
+}
+
+.left-section p{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+button {
+  font-size: 18px;
+  color: #E5E7EB;
+  padding: 7px 1em;
+  width: 120px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+}
+
+.right-section img{
+  width: 100%;
+  flex-shrink: 0;
+}
